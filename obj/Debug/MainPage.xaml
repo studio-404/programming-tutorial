@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="App2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="#000000">
+
+
+    <ScrollViewer Background="#ffffff">
+        <StackPanel VerticalAlignment="Stretch" Name ="spTerminalBox">
+            <Border Background="#4eb3d1" BorderThickness="0" Grid.Row="0" Margin="0,0,0,10">
+                <TextBlock 
+                x:Name="textBlock" 
+                HorizontalAlignment="left" 
+                Margin="10" 
+                TextWrapping="Wrap" 
+                VerticalAlignment="Top"
+                FontSize="24">
+                <Run Text="HTML Tutorial " Foreground="#ffffff"/>
+                </TextBlock>
+            </Border>
+
+            
+
+        </StackPanel>
+       
+
+    </ScrollViewer>
+</Page>
+
